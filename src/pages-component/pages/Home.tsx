@@ -42,7 +42,7 @@ const Home: React.FC = () => {
 
     const clientId = '1353686904356474991';
     const clientSecret = '1wk5b78RnaWbo--t52_f01pesnYpuFps';
-    const redirectUri = 'http://uknvg.github.io/iMbot/dashboard';
+    const redirectUri = 'http://uknvg.github.io/iM-Bot/dashboard';
 
     const discordAuthUrl = `https://discord.com/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=identify`;
 
